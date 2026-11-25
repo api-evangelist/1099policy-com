@@ -66,7 +66,7 @@
 
 1099Policy provides an insurance and compliance platform for 1099 contractors, offering per‑engagement workers’ compensation, liability coverage, and automated certificate of insurance (COI) management. The service enables companies to onboard independent workers quickly, verify coverage, and reduce compliance risk without the overhead of an employer of record. By integrating with payroll and contractor management tools, 1099Policy helps businesses close coverage gaps, lower costs, and maintain audit‑ready records.
 
-**Areas:** Insurance · Compliance · Contractors · API · WorkersComp
+**Areas:** Insurance · Compliance · Contractors · Workers Comp
 
 ## 1099policy-com on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for 1099policy-com is published on APIs.io rather than in th
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [1099policy-com-mcp.yml](https://apis.io/servers/1099policy-com/1099policy-com-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -98,6 +104,12 @@ Linked-data contexts for the provider's vocabulary.
 
 - [1099Policy Com Context](https://apis.io/jsonld/1099policy-com/1099policy-com-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [1099policy-com Openapi Generated Certification Overlay](https://apis.io/overlays/1099policy-com/1099policy-com-openapi-generated-certification-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -108,26 +120,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [1099Policy Com Authentication](https://apis.io/security/1099policy-com/1099policy-com-authentication/)
-- [1099Policy Com Domain Security](https://apis.io/security/1099policy-com/1099policy-com-domain-security/)
+- [1099policy-com Authentication](https://apis.io/security/1099policy-com/1099policy-com-authentication/)
+- [1099policy-com Domain Security](https://apis.io/security/1099policy-com/1099policy-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [1099Policy Com Scopes](https://apis.io/scopes/1099policy-com/1099policy-com-scopes/)
+- [1099policy-com Scopes](https://apis.io/scopes/1099policy-com/1099policy-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [1099Policy Com Plans Pricing](https://apis.io/plans/1099policy-com/1099policy-com-plans-pricing/)
+- [1099policy-com Plans Pricing](https://apis.io/plans/1099policy-com/1099policy-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [1099Policy Com Rate Limits](https://apis.io/rate-limits/1099policy-com/1099policy-com-rate-limits/)
+- [1099policy-com Rate Limits](https://apis.io/rate-limits/1099policy-com/1099policy-com-rate-limits/)
 
 ## Where to find this API
 
@@ -147,18 +159,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 53.0** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 42.2** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 45.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 31.6 |
+| Discoverability | 63.3 |
+| Contract quality | 26.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 33.3 |
 | Developer ergonomics | 47.6 |
-| Access clarity | 44.7 |
+| Access clarity | 48.9 |
 
-**Agent readiness 42.7** — agent-ready (gated down from agent-native)
+**Agent readiness 39.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -173,7 +185,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -183,6 +195,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 36.8** — Insurance
 
